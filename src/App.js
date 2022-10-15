@@ -1,5 +1,9 @@
 import './App.css';
 import {Container, Paper,Typography} from '@mui/material';
+import {app, analytics} from './firebase.config'
+
+console.log('Here is the app:',app)
+console.log('Here is the analytics:',analytics)
 
 function App() {
   const styles = {
